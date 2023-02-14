@@ -1,0 +1,85 @@
+
+
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin:0px auto;
+    background-image: url("../images/repair01.jpg");
+    /* backdrop-filter: blur(20px); */
+    background-size: 100%;
+    font-size: 25px;
+}
+
+	/*--   SECTION 1   */
+
+												/* Navibar */
+#navibar{
+	width:100%;
+	min-height: 60px;
+	/* border-bottom: 2px solid #FF7700;*/
+	color: #FF7700;
+	margin: 20px 0;
+}
+#topbox{
+	width:90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+
+																/* Left */
+.topbox-name{
+	margin-right: 20px;
+}
+.name{
+	font-size: 30px;
+	margin-right: 10px;
+}
+.line{
+	border-left: 1px solid #ccc;
+	margin-right: 10px;
+}
+.service{
+	font-family: "Comic Sans MS","Trebuchet MS","Courier New", sans-serif;
+	font-size: 13px;
+}
+
+
+	
+
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 50%;
+    height:400px;
+    margin:0 auto;
+    padding: 50px;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:#FF7700;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 60px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+

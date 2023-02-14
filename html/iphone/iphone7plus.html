@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8"> 
+		<title>Cellphone and Laptop Repair Service</title>
+		<link rel="stylesheet" type="text/css" href="../../css/Repair.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+		
+	<body>
+	
+	<!--   SECTION 1   -->
+		<!-- Navibar -->
+		<header id = "navibar">
+			<!-- Content -->
+			<div id = "topbox">			
+				<!-- Left -->
+				<div class = "topbox-name">
+					<span class = "name">Mr.Repair</span>
+					<span class = "line"></span>
+					<span class = "service">24/7 SERVICE</span>
+				</div>
+				<!-- Navi -->
+				<ul class = "topbox-navi" style="list-style-type:none;">
+					<li>
+					<a href = "../HomePage.html">Home</a>
+					</li>
+					<li>
+					<a href = "../Cellphone.html">Cellphone Repairs</a>
+					</li>
+					<li>
+					<a href = "../Laptop.html">Laptop Repairs</a>
+					</li>
+					<li>
+					<a href = "../Technician.html" class = "Technician"><em>Become A Technician</em></a>
+					</li>
+				</ul>
+				<!-- Cart -->
+				<ul style="list-style-type:none;">
+					<li class = "cart">
+						<a href = "../cart.html">
+							<ion-icon name = "cart-outline"></ion-icon> Cart <span> 0 </span>
+						</a>
+					</li>
+				</ul>	
+			</div>
+		</header>
+
+    <!--   SECTION 2   -->
+    <div id = "section2">
+        <div id = "photo">
+            <img src = "../../images/iPhone/iPhone 7 Plus.png" alt = "iphone7plus">
+        </div>
+        <div id = "text">
+            <h1>iPhone 7 Plus</h1>
+            <a href = "../Cellphone.html">Other Model</a>
+        </div>
+        <div id = "option">
+			<div class = "option">
+				<h3><a class = "add-cart crecked" href = "#" onclick= "addedtocart()">Crecked Screen   -   <span>$139.99</span></a></h3>
+				<input type = "hidden" value = "139.99">
+			</div>
+			<div class = "option">
+				<h3><a class = "add-cart battery" href = "#" onclick= "addedtocart()">Battery Replacement   -   <span>$69.99</span></a></h3>
+				<input type = "hidden" value = "69.99">
+			</div>
+			<div class = "option">
+				<h3><a class = "add-cart port" href = "#" onclick= "addedtocart()">Changing Port   -   <span>$99.99</span></a></h3>
+				<input type = "hidden" value = "99.99">
+			</div>
+			<div class = "option">
+				<h3><a class = "add-cart headphone" href = "#" onclick= "addedtocart()">Headphone Plug   -   <span>$99.99</span></a></h3>
+				<input type = "hidden" value = "99.99">
+			</div>
+        </div>
+    </div>
+	
+	<!--   SECTION 4   -->
+
+		<footer>	
+			<div id = "container">
+				<div id = "about" class = footer1>
+					<div id = "section-1">
+						<h2>About</h2>
+						<P> Mr.Repair Technologies Inc.</P>
+						<p>(514) 123-4567</p>
+						<P>support@mrrepair.com</P>
+						<ul class = "social-list" style="list-style-type:none;">
+							<li>
+							<a href="https://www.facebook.com/" class="fa fa-facebook" title="Facebook Page" target="_blank">
+							</a>
+							</li>
+							<li>
+							<a href="https://www.instagram.com/" class="fa fa-instagram" title="Instagram Page" target="_blank">
+							</a>
+							</li>
+							<li>
+							<a href="https://www.twitter.com/" class="fa fa-twitter" title="Twitter Page" target="_blank">
+							</a>
+							</li>
+							<li>
+							<a href="https://www.linkedin.com/" class="fa fa-linkedin"title="Linkedin Page" target="_blank">
+							</a>
+							</li>
+						</ul>
+					</div>
+				</div>		
+					
+				<div id = "feedback" class = footer1>
+					<div id = "section-2">
+						<h2>Feedback</h2>
+						<textarea  id = "feedbacktext" placeholder = "I have some suggestions for feedback"></textarea>
+						<form>
+							<input id = "Name" type = "text" placeholder = "Your name">
+							<input id = "Email" type = "email" placeholder = "Your Email">
+							<input id = "Submit" type="submit" value="Submit">
+						</form> 
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script nomodule src="../../jquery-3.6.0.min.js"></script>
+		<script src="../../js/repair.js"></script>
+		<script src="../../js/iphone/iphone7plus.js"></script>
+	</body>
+</html>
+
